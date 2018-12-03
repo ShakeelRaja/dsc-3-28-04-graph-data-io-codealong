@@ -1032,7 +1032,7 @@ nx.draw(GAAdj, with_labels=True)
 ![png](index_files/index_14_0.png)
 
 
-Okie so we can see that we have lost our labels i.e. characters names. This information needs to be imported from the dataframe and create a label mapping dictionary. The `nx.relabel_nodes()` method can be used to remap nodes labels (or any other attributes) as we see below. 
+We can see that we have lost our labels i.e. characters names. This information needs to be imported from the dataframe and create a label mapping dictionary. The `nx.relabel_nodes()` method can be used to remap nodes labels (or any other attributes) as we see below. 
 
 ```python
 # Relabel the graph nodes with column names from dataframe
